@@ -12,6 +12,9 @@
 		D7657ED02502E1AD00498388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7657ECE2502E1AD00498388 /* Main.storyboard */; };
 		D7657ED22502E1AF00498388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7657ED12502E1AF00498388 /* Assets.xcassets */; };
 		D7657ED52502E1AF00498388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7657ED32502E1AF00498388 /* LaunchScreen.storyboard */; };
+		D7657EDE2506E37500498388 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7657EDD2506E37500498388 /* ImageViewController.swift */; };
+		D7657EE025070C6200498388 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7657EDF25070C6200498388 /* DemoURL.swift */; };
+		D7D9829725084D2600316835 /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7D9829525084C2F00316835 /* oval.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D7657ED12502E1AF00498388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7657ED42502E1AF00498388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7657ED62502E1AF00498388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7657EDD2506E37500498388 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		D7657EDF25070C6200498388 /* DemoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
+		D7D9829525084C2F00316835 /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				D7657EDC2506DE4800498388 /* Supporting Files */,
 				D7657ECE2502E1AD00498388 /* Main.storyboard */,
+				D7657EDF25070C6200498388 /* DemoURL.swift */,
+				D7657EDD2506E37500498388 /* ImageViewController.swift */,
 				D7657ED62502E1AF00498388 /* Info.plist */,
+				D7D9829525084C2F00316835 /* oval.jpg */,
 			);
 			path = Cassini;
 			sourceTree = "<group>";
@@ -131,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7657ED52502E1AF00498388 /* LaunchScreen.storyboard in Resources */,
+				D7D9829725084D2600316835 /* oval.jpg in Resources */,
 				D7657ED22502E1AF00498388 /* Assets.xcassets in Resources */,
 				D7657ED02502E1AD00498388 /* Main.storyboard in Resources */,
 			);
@@ -143,7 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7657EE025070C6200498388 /* DemoURL.swift in Sources */,
 				D7657EC92502E1AD00498388 /* AppDelegate.swift in Sources */,
+				D7657EDE2506E37500498388 /* ImageViewController.swift in Sources */,
 				D7657ECB2502E1AD00498388 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
